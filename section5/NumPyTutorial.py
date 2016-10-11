@@ -11,7 +11,7 @@ my_mat = [[1,2,3],[4,5,6],[7,8,9]]
 print(np.array(my_mat))
 
 
-#coomon way
+#common way
 
 print(np.arange(0,10,2))
 print(np.zeros((5,5)))
