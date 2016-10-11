@@ -32,3 +32,41 @@ print(ranarr.argmin())
 print(arr.shape)
 print(arr.dtype)
 print(randn(5,2))
+
+#4 NumPy Array Indexing and Selecting.
+arr = np.arange(0,11)
+print(arr)
+print(arr[8])
+print(arr[1:5])
+print(arr[:6])
+print(arr[5:])
+# arr[0:5] = 100
+slice_of_arr = arr[0:6]
+print(slice_of_arr)
+slice_of_arr[:] = 99
+print(arr)
+arr_copy = arr.copy()
+arr_2d = np.array([[5,10,15],[20,25,30],[35,40,45]])
+print(arr_2d)
+print(arr_2d[0][0])
+print(arr_2d[1][1])
+print(arr_2d[1,2])
+print(arr_2d[:2,1:])
+arr = np.arange(1,11)
+print(arr)
+print(arr > 5)
+print(arr[arr<3])
+
+#5 NumPy Operations
+arr = np.arange(0,11)
+print(arr)
+print(arr+arr)
+print(arr + 2)
+#universal array function
+print(np.sqrt(arr))
+print(np.exp(arr))
+print(np.max())
+print(np.sin(arr))
+print()
+
+
