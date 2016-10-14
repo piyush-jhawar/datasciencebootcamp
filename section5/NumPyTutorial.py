@@ -63,10 +63,21 @@ print(arr)
 print(arr+arr)
 print(arr + 2)
 #universal array function
-print(np.sqrt(arr))
-print(np.exp(arr))
-print(np.max())
-print(np.sin(arr))
-print()
+# print(np.sqrt(arr))
+# print(np.exp(arr))
+# print(np.max())
+# print(np.sin(arr))
+# print()
+
+#6 NumPy Exercise Overview
+
+print(np.zeros(11))
+print(np.ones(11))
+print(np.ones(11)*5)
+print(np.arange(10,51))
+print(np.arange(0,9).reshape(3,3))
+print(np.eye(3))
 
 
+print(np.linspace(0,1,20))
+print(np.random.randn(101))
